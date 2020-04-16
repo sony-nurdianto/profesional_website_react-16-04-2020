@@ -1,0 +1,42 @@
+.bg {
+    background-image: url('./images/bg3.jpg');
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.bg-menu {
+    background-image: url('./images/bg.jpg');
+    
+}
+
+.text {
+    color : #77d8d8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Title {
+    font-size: 5em;
+}
+.Title2 {
+    font-size: 4em;
+}
+.Title3 {
+    background-color: indigo;
+}
+
+.ps {
+    margin-top: 10em;
+}
+.menu-p {
+    padding: 0;
+    margin: 0;
+}
+.left {
+    margin-left : 5em;
+}
+.right {
+    margin-right : 10em;
+    margin-left : 5em;
+}
