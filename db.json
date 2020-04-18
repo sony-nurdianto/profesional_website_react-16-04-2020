@@ -1,0 +1,35 @@
+{
+    "article" : [
+        {
+            "id" : 1,
+            "title" : "lorem ipsum",
+            "description" : "lorem ipsum",
+            "imgUrl" : "https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/bolasport/medium_f2b219f03afae94e715751ec101912c3.jpg"
+                
+        },
+        {
+            "id" : 2,
+            "title" : "lorem ipsum",
+            "description" : "lorem ipsum",
+            "imgUrl" : "https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/bolasport/medium_f2b219f03afae94e715751ec101912c3.jpg"
+        },
+        {
+            "id" : 3,
+            "title" : "lorem ipsum",
+            "description" : "lorem ipsum",
+            "imgUrl" : "https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/bolasport/medium_f2b219f03afae94e715751ec101912c3.jpg"
+        },
+        {
+            "id" : 4,
+            "title" : "lorem ipsum",
+            "description" : "lorem ipsum",
+            "imgUrl" : "https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/bolasport/medium_f2b219f03afae94e715751ec101912c3.jpg"
+        },
+        {
+            "id" : 5,
+            "title" : "lorem ipsum",
+            "description" : "lorem ipsum",
+            "imgUrl" : "https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/bolasport/medium_f2b219f03afae94e715751ec101912c3.jpg"
+        }
+    ]
+}

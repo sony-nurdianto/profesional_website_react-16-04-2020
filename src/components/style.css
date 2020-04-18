@@ -1,8 +1,6 @@
 .bg {
     background-image: url('./images/bg3.jpg');
     background-size: cover;
-    padding: 0;
-    margin: 0;
     width: 100%;
 }
 
@@ -23,12 +21,10 @@
     font-size: 4em;
 }
 .Title3 {
-    background-color: indigo;
+    background-color:  #333399;
 }
 
-.ps {
-    margin-top: 10em;
-}
+
 .menu-p {
     padding: 0;
     margin: 0;
@@ -38,5 +34,11 @@
 }
 .right {
     margin-right : 10em;
-    margin-left : 5em;
+    margin-left : 1em;
+}
+
+.bgfh {
+    background-color: white;
+    margin-bottom: 5em;
+    margin-top: 10em;
 }
