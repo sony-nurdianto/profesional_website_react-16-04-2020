@@ -1,0 +1,16 @@
+.myProject{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    
+}
+
+.title-Project{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card{
+    width: 15rem;
+}

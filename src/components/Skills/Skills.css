@@ -1,0 +1,38 @@
+
+.progress-bar{
+    background-color: transparent !important;
+    
+}
+
+.skills{
+    margin-top: 5rem;
+    text-align: center;
+    height: 80vh;
+    color : #fa26a0;
+    font-weight: 1000;
+    
+}
+
+.skills-set{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.line{
+    border-top: 4px solid mediumaquamarine;
+    width: 5rem;
+}
+
+
+.Stack{
+    display: flex;
+    justify-content: space-around;
+   flex-direction: row;
+   text-align: center;
+}
+
+.center{
+    text-align: center;
+}

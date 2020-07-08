@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #092532;
+    height : 25vh
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-icon i{
+
+    color : white
+}
+
+.waterMark{
+    text-align: center;
+    color : white
+    
+}
+.icon:hover:hover{
+    color : red;
+}
+
+.big{
+    width: 100%;
+}

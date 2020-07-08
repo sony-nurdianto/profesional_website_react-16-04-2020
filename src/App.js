@@ -1,25 +1,17 @@
 import React from 'react';
-import Home from './components/Home'
-import Menu from './components/Menu'
-import Article from './components/Article/Article'
-import Main from './components/Article/Main'
-import Hire from './components/Hire'
-import Portofolio from './components/Portofolio'
+import Navbar from "./components/Navbar/Navbar"
+import Home from "./Home.js/Home"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 
 
 function App() {
   return (
     <Router>
-         <Menu/> 
+      <Navbar />
       <Switch>
-        <Route exact path="/" component={Home}></Route>
-        <Route exact path="/portofolio" component={Portofolio}></Route>
-        <Route exact path="/Article" component={Article}></Route>
-        <Route exact path="/Article/:id" component={Main}/>
-        <Route exact path="/Hire" component={Hire}></Route>
+        <Route exact path="/"><Home /></Route>
       </Switch>
     </Router>
   );
