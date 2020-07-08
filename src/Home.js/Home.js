@@ -6,7 +6,7 @@ import Project from "../components/Project/index"
 import Contact from "../components/Contact/index"
 import Footer from "../components/Footer/index"
 import "./Home.css"
-import { Parallax } from 'react-parallax';
+
 
 
 const Home = () => {

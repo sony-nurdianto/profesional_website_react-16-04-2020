@@ -11,7 +11,7 @@ import BeliBaik from "../../images/Beli-Baik.png"
 
 const Project = () => {
 
-    const [scale, setScale] = useState(1.3);
+    const [scale] = useState(1.3);
 
     useEffect(() => {
         Aos.init({ duration: 500, disable: false })
