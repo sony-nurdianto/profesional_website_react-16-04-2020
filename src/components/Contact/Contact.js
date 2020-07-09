@@ -81,10 +81,10 @@ export default class Contact extends React.Component {
                                         </div>
 
                                         <div className="form-group form-check"></div>
-                                        {status === "SUCCESS" ? <p>Thanks!</p> : <button type="submit" className="btn  btn-primary">
+                                        {status === "SUCCESS" ? <p style={{ color: "green" }}>Thanks!</p> : <button type="submit" className="btn  btn-primary">
                                             submit
                             </button>}
-                                        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                                        {status === "ERROR" && <p style={{ color: "blue" }}>Ooops! There was an error.</p>}
 
                                     </form>
                                 </Tilt>
