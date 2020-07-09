@@ -34,7 +34,7 @@ export default class Contact extends React.Component {
                     strength={300}
 
                 >
-                    <Tilt
+                    {/* <Tilt
                         className="parallax-effect-img"
                         tiltMaxAngleX={35}
                         tiltMaxAngleY={35}
@@ -42,56 +42,56 @@ export default class Contact extends React.Component {
                         scale={1.1}
                         transitionSpeed={2000}
                         gyroscope={true}
-                    >
-                        <div className="contact inner-element">
+                    > */}
+                    <div className="contact inner-element">
 
-                            <div className="card p-3 rounded shadow masukan-card" >
-                                <Tilt tiltEnable={false} scale={this.state.scale} transitionSpeed={2500}>
-                                    <form
-                                        onSubmit={this.submitForm}
-                                        action="https://formspree.io/xrgyyjgq"
-                                        method="POST"
-                                    >
-                                        <div className="jarak">
-                                            <h2 className="masukan-title" >Contact</h2>
-                                            <hr className="masukan-line" />
-                                            <h6>Have a question or want to work together?</h6>
-                                        </div>
-                                        <div className="form-group">
-                                            <input
-                                                type="email"
-                                                className="form-control"
-                                                id="name"
-                                                name="email"
-                                                placeholder="email"
-                                            //   value={data.name}
-                                            //   onChange={handleChange}
-                                            />
-                                        </div>
-                                        <div className="form-group">
-                                            <textarea
-                                                type="text"
-                                                className="form-control"
-                                                id="message"
-                                                name="message"
-                                                placeholder="Pesan"
-                                            //   value={data.email}
-                                            //   onChange={handleChange}
-                                            />
-                                        </div>
+                        <div className="card p-3 rounded shadow masukan-card" >
+                            {/* <Tilt tiltEnable={false} scale={this.state.scale} transitionSpeed={2500}> */}
+                            <form
+                                onSubmit={this.submitForm}
+                                action="https://formspree.io/xrgyyjgq"
+                                method="POST"
+                            >
+                                <div className="jarak">
+                                    <h2 className="masukan-title" >Contact</h2>
+                                    <hr className="masukan-line" />
+                                    <h6>Have a question or want to work together?</h6>
+                                </div>
+                                <div className="form-group">
+                                    <input
+                                        type="email"
+                                        className="form-control"
+                                        id="name"
+                                        name="email"
+                                        placeholder="email"
+                                    //   value={data.name}
+                                    //   onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <textarea
+                                        type="text"
+                                        className="form-control"
+                                        id="message"
+                                        name="message"
+                                        placeholder="Pesan"
+                                    //   value={data.email}
+                                    //   onChange={handleChange}
+                                    />
+                                </div>
 
-                                        <div className="form-group form-check"></div>
-                                        {status === "SUCCESS" ? <p>Thanks!</p> : <button type="submit" className="btn  btn-primary">
-                                            submit
-                            </button>}
-                                        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                                <div className="form-group form-check"></div>
+                                {status === "SUCCESS" ? <p>Thanks!</p> : <button type="submit" className="btn  btn-primary">
+                                    submit
+                                        </button>}
+                                {status === "ERROR" && <p>Ooops! There was an error.</p>}
 
-                                    </form>
-                                </Tilt>
-                            </div>
-
+                            </form>
+                            {/* </Tilt> */}
                         </div>
-                    </Tilt>
+
+                    </div>
+                    {/* </Tilt> */}
                     {/* </Tilt> */}
                 </Parallax>
             </section>
